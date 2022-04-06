@@ -29,6 +29,37 @@ class _LoginSignupScreenState extends State<LoginSignupScreen> {
                   fit: BoxFit.fill
                 ),
               ),
+              child: Container(
+                padding: EdgeInsets.only(
+                  top: 90,
+                  left: 20
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    RichText(
+                      text: TextSpan(
+                        text: "Welcome",
+                        style: TextStyle(
+                          letterSpacing: 1.0,
+                          fontSize: 25,
+                          color: Colors.white
+                        ),
+                        children: [
+                          TextSpan(
+                            text: "Welcome",
+                            style: TextStyle(
+                              letterSpacing: 1.0,
+                              fontSize: 25,
+                              color: Colors.white
+                            ),
+                          ),
+                        ]
+                      )
+                    ),
+                  ],
+                )
+              ),
             ),
           )
         ]
